@@ -1,0 +1,226 @@
+.About-us-section {
+    background-color: rgb(231, 231, 231);
+    background-image: url('../home img/about-bg.png');
+    background-size: cover;
+    background-blend-mode:soft-light;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-header {
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-header h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: var(--bgOrange);
+    font-family: sans-serif;
+    margin-bottom: 0;
+
+}
+
+.about-header-line {
+    height: 2px;
+    width: 10rem;
+    margin: auto;
+    background-color: rgb(20, 236, 189);
+}
+
+.about-intro {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80%;
+    font-size: 1.4rem;
+}
+
+.overview {
+    margin-inline: auto;
+}
+
+.over-feature {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 98%;
+    margin-bottom: 2rem;
+}
+
+.over-header {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.over-header h2 {
+    margin-left: 0;
+    font-size: 2rem;
+    color: rgb(72, 9, 72);
+    font-family: sans-serif;
+
+}
+
+.over-header div {
+    height: 2px;
+    width: 7.8rem;
+    margin-top: -0.5rem;
+    margin-left: 0;
+    background-color: rgb(20, 186, 236);
+}
+
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-top: 1rem;
+
+}
+
+.team {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 70%;
+}
+
+.tean-header {
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.team-header-line {
+    height: 2px;
+    width: 18rem;
+    margin: auto;
+    background-color: rgb(20, 236, 189);
+}
+
+.team-header h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    color: var(--bgOrange);
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+
+.team-mem {
+    margin: 4rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.mem-card {
+    position: relative;
+    max-width: 44%;
+    min-width: 370px;
+    height: 23.2rem;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.desc {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    background-color: rgb(24, 77, 138);
+    z-index: 10;
+    opacity: 0;
+    transition-duration: 0.6s;
+}
+
+.desc h2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.desc p {
+    text-align: center;
+    margin-inline: 0 auto;
+    padding: 0;
+    line-height: 1rem;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.desc b{
+    font-size: large;
+    color: rgb(226, 236, 245);
+}
+
+.card-icon-wrapper{
+    padding-inline: 8px;
+    display:flex;
+    gap:1.2rem;
+    margin-bottom: 1rem;
+    margin-inline: auto;
+    font-size: 1.2rem;
+  }
+
+  .icon{
+    cursor:pointer;
+    color:white;
+    transition:all 0.4s;
+  }
+
+  .icon:hover{
+    color:var(--bgOrange);
+  }
+
+.mem-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    filter: grayscale(100%);
+    z-index: -10;
+}
+
+.mem-card:hover img {
+    width: 100%;
+    filter: grayscale(0%);
+}
+
+.mem-card:hover div {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.mem-card:hover div h2,
+p {
+    opacity: 1;
+}
+
+.mem-card:hover {
+    transition: 0.5s;
+    transform: scale(1.03);
+    filter: drop-shadow(0 0 7px #030303);
+
+}

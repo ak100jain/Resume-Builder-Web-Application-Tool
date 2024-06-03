@@ -1,0 +1,91 @@
+.contactus-section{
+  position: relative;
+}
+
+.contactus-form-container{
+    width:100%;
+  }
+  
+.contact-header{
+    margin: 4rem 0;
+    margin-bottom: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+  .contactus-sub-heading{
+    margin: 0 auto;
+    text-align: center;
+    font-size:2.8rem;
+    color:#343d68aa;
+    text-transform: capitalize;
+  }
+
+  .contact-header h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: var(--bgOrange);
+    font-family: sans-serif;
+    margin-bottom: 0;
+
+}
+
+.contact-line {
+    height: 2px;
+    width: 10rem;
+    margin: auto;
+    background-color: rgb(20, 236, 189);
+}
+  
+  .contactus-form-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    width:70%;
+    margin: 2rem 5rem;
+  }
+  
+  .formfield-container{
+    width:100%;
+  }
+  
+  .formfield{
+    width:100%;
+    height:38px;
+    padding: 0 2rem;
+    font-size:18px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #1f1f1f;
+    font-weight:500;
+    border:none;
+    margin-top:27px;
+    background: transparent;
+  }
+  
+  .formfield-textarea{
+    height:auto;
+    padding-top:1rem;
+  }
+  
+  #submit-btn{
+    border:none;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+  }
+  
+  #submit-btn:hover{
+    scale:0.9;
+    border-color: black;
+  }
+  
+  .submit-icon{
+    padding:0 1rem;
+    font-size:1.5rem;
+  }

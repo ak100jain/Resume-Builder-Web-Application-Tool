@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+:root {
+    --bgOrange: #e84949;
+  } 
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.car-heading{
+    font-size: 6rem;
+}
+
+.line{
+    height: 2px;
+    width: 100%;
+    margin: auto 0%;
+    background-color: rgb(20, 236, 189);
+}
+
+.btn{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    transition-duration: 1.2s;
+}
+
+.btn a{
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    transform: scale(1.02);
+    color: rgb(205, 205, 205);
+    text-decoration: none;
+}
+.btn a:hover{
+    color: rgb(205, 205, 205);
+    text-decoration: none;
+}
+
+.car-para{
+    font-size: 2rem;
+}
